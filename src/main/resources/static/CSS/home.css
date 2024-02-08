@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+:root {
+	--primary: #06BBCC;
+	--light: #F0FBFC;
+	--dark: #181d38;
+}
+
+.fw-medium {
+	font-weight: 600 !important;
+}
+
+.fw-semi-bold {
+	font-weight: 700 !important;
+}
+
+.btn {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	transition: .5s;
+	/* color: #008E97; */
+	border-radius: none;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-info, .btn-warning {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	transition: .5s;
+	/* color: #008E97; */
+	color: white;
+	border-radius: none;
+}
+
+.nav-item {
+	margin-left: 24px;
+}
+
+.mycls {
+	background: #F99417;
+}
+
+.home-img {
+	background-image: url("../CSS/Images/heroBanner.jpg");
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.banner {
+	background: url("../CSS/Images/heroBanner.jpg");
+	width: 100%;
+	min-height: 90vh;
+	background-size: cover;
+	/* filter: brightness(30%); */
+}
+
+.banner h1 {
+	color: white;
+	filter: brightness(100%);
+}
+
+/*** Service ***/
+.service-item {
+	background: var(--light);
+	transition: .5s;
+}
+
+.service-item:hover {
+	margin-top: -10px;
+	background: var(--primary);
+}
+
+.service-item * {
+	transition: .5s;
+}
+
+.service-item:hover * {
+	color: var(--light) !important;
+}
+
+.course{
+	background: var(--light);
+}
+
+
+.detail{
+		background-color: #FAFAEB;
+}
